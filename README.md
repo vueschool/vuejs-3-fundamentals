@@ -1,6 +1,6 @@
 # Vue.js 3 Fundamentals
 
-[![https://vueschool.io/media/0b2faaa92e00e7b6d5937c127f65119f/vue-3-fundamentals-not-transparent.jpg]()](https://vueschool.io/courses/vuejs-3-fundamentals)
+[![](https://vueschool.io/media/0b2faaa92e00e7b6d5937c127f65119f/vue-3-fundamentals-not-transparent.jpg)](https://vueschool.io/courses/vuejs-3-fundamentals)
 
 This repository contains the example code for the [Vue.js 3 Fundamentals](https://vueschool.io/courses/vuejs-3-fundamentals) course.
 
