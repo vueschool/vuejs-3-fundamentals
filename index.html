@@ -10,11 +10,21 @@
 <body>
   <div id="shopping-list">
     <h1>{{ header || 'Welcome' }}</h1>
-    <input type="text" v-model="newItem" placeholder = "Add an Item">
-    <label>
-      <input type="checkbox" v-model="newItemHighPriority">
-      High Priority
-    </label>
+    <div class="add-item-form">
+      <input 
+        @keyup.enter="items.push({id:items.length + 1, label: newItem})" 
+        type="text" v-model="newItem" placeholder = "Add an Item">
+      <label>
+        <input type="checkbox" v-model="newItemHighPriority">
+        High Priority
+      </label>
+      <button 
+        @click="items.push({id:items.length + 1, label: newItem})" 
+        class="btn btn-primary">
+        Save Item
+      </button>
+    </div>
+    
     <ul>
       <li v-for="item in items" :key="item.id">{{item.label}}</li>
     </ul>
