@@ -12,7 +12,7 @@
     <div class="header">
       <h1>{{ header || 'Welcome' }}</h1>
       <button v-if="editing" @click="doEdit(false)" class="btn btn-cancel">Cancel</button>
-      <button v-else @click="doEdit(true)" class="btn btn-primry">Add Item</button>
+      <button v-else @click="doEdit(true)" class="btn btn-primary">Add Item</button>
     </div>
     
     <div v-if="editing" class="add-item-form">
